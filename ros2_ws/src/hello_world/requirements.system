@@ -1,0 +1,25 @@
+# requirements.system
+# 
+# This file lists system package dependencies required for the project.
+# It is used during the Docker build process to install necessary packages.
+#
+# Features:
+# - Supports inline comments using the `#` symbol.
+# - Allows environment variable substitution using `envsubst`.
+# - Multiple `requirements.system*` files can be merged automatically.
+#
+# Usage:
+# - Each line specifies a package name as it would be installed via `apt-get install`.
+# - Empty lines and lines starting with `#` are ignored.
+# - Example:
+#     # This is a comment
+#     curl
+#     libssl-dev
+#     ros-${ROS_DISTRO}-tf2  # Example of using an environment variable
+#
+# When used in the Dockerfile, the packages will be installed using:
+#     apt-get install --no-install-recommends -y $(cat requirements.system | sed '/^#/d' | sed '/^$/d' | envsubst)
+#
+
+# Small command-line JSON processor
+jq

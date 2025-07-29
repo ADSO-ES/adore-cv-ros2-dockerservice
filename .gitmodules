@@ -1,0 +1,3 @@
+[submodule "ros2_ws/src/adore_ros2_msgs"]
+	path = ros2_ws/src/adore_ros2_msgs
+	url = git@github.com:DLR-TS/adore_ros2_msgs.git

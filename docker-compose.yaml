@@ -1,0 +1,13 @@
+services:
+  ros2_service:
+    build: .
+    image: ros2_service__package_${ROS_PACKAGE_NAME:-hello_world}__node_${ROS_NODE_NAME:-hello_world}:latest
+    container_name: ros2_service__package_${ROS_PACKAGE_NAME:-hello_world}__node_${ROS_NODE_NAME:-hello_world} 
+    environment:
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+      - ROS_PACKAGE_NAME=${ROS_PACKAGE_NAME:-hello_world}
+      - ROS_NODE_NAME=${ROS_NODE_NAME:-hello_world}
+      - ROS_DISTRO=${ROS_DISTRO:-jazzy}
+    volumes:
+      - ./ros2_ws/src:/ros2_ws/src
+      - ./.log:/ros2_ws/log

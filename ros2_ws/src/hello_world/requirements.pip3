@@ -1,0 +1,24 @@
+# requirements.pip3
+#
+# This file lists Python package dependencies required for the project.
+# It is used during the Docker build process to install necessary Python packages via `pip3`.
+#
+# Features:
+# - Supports inline comments using the `#` symbol.
+# - Allows environment variable substitution using `envsubst`.
+# - Multiple `requirements.pip3*` files can be merged automatically.
+#
+# Usage:
+# - Each line specifies a package name as it would be installed via `pip3 install`.
+# - Empty lines and lines starting with `#` are ignored.
+# - Example:
+#     # This is a comment
+#     requests
+#     numpy==1.21.0  # Example of specifying a version
+#
+# When used in the Dockerfile, the packages will be installed using:
+#     pip3 install --no-cache-dir -r requirements.pip3 | envsubst
+#
+
+requests
+
