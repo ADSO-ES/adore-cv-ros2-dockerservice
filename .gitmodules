@@ -1,3 +1,0 @@
-[submodule "ros2_ws/src/adore-cv"]
-	path = ros2_ws/src/adore-cv
-	url = git@github.com:ADSO-ES/adore-cv.git
