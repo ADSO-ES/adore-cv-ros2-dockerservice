@@ -28,6 +28,10 @@ RUN --mount=target=/root/.cache/pip,type=cache,sharing=locked \
     if [ -n "$requirements" ]; then python3 -m pip install --break-system-packages --no-cache-dir $requirements; fi
 
 
+RUN pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu --break-system-packages
+
+RUN pip3 install keras --break-system-packages
+
 
 RUN userdel --remove ubuntu || true
 RUN rm -rf /home/ubuntu || true

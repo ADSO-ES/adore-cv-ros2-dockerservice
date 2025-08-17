@@ -23,3 +23,6 @@
 
 # Small command-line JSON processor
 jq
+
+# python3-opencv
+libgl1

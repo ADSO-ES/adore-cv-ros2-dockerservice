@@ -21,4 +21,39 @@
 #
 
 requests
-
+numpy
+pandas
+tensorflow
+# numpy source conflict for ultralytics
+ultralytics --no-deps
+opencv-python
+pytz
+tzdata
+matplotlib
+pillow
+py-cpuinfo
+scipy
+#torch
+#torchvision
+tqdm
+ultralytics-thop
+absl-py
+astunparse
+flatbuffers
+google-pasta
+grpcio
+h5py
+libclang
+ml-dtypes==0.5.1
+opt-einsum
+termcolor
+typing-extensions
+wrapt
+protobuf==3.20.3
+tensorboard~=2.19.0 
+gast==0.2.1
+urllib3
+certifi==2017.4.17
+charset_normalizer>=2,<4
+idna>=2.5,<4
+keras
