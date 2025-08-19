@@ -3,6 +3,8 @@ services:
     build: .
     image: ros2_service__package_${ROS_PACKAGE_NAME:-hello_world}__node_${ROS_NODE_NAME:-hello_world}:latest
     container_name: ros2_service__package_${ROS_PACKAGE_NAME:-hello_world}__node_${ROS_NODE_NAME:-hello_world} 
+    devices:
+      - "/dev/video1:/dev/video1"
     environment:
       - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
       - ROS_PACKAGE_NAME=${ROS_PACKAGE_NAME:-hello_world}

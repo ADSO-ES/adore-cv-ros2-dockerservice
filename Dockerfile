@@ -27,6 +27,7 @@ RUN --mount=target=/root/.cache/pip,type=cache,sharing=locked \
     requirements=$(find . -type f -name 'requirements.pip3' -exec cat {} + | sed '/^#/d' | sed '/^$/d' | envsubst) && \
     if [ -n "$requirements" ]; then python3 -m pip install --break-system-packages --no-cache-dir $requirements; fi
 
+RUN apt-get install -y ros-${ROS_DISTRO}-vision-msgs
 
 RUN pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu --break-system-packages
 

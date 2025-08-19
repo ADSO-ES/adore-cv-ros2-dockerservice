@@ -23,7 +23,7 @@
 requests
 numpy
 pandas
-tensorflow
+tensorflow-cpu==2.20.0
 # numpy source conflict for ultralytics
 ultralytics --no-deps
 opencv-python
@@ -49,8 +49,8 @@ opt-einsum
 termcolor
 typing-extensions
 wrapt
-protobuf==3.20.3
-tensorboard~=2.19.0 
+protobuf==6.32.0
+tensorboard==2.20.0
 gast==0.2.1
 urllib3
 certifi==2017.4.17

@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000286] (adore_cv) JobQueued: {'identifier': 'adore_cv', 'dependencies': OrderedDict()}
+[0.000307] (hello_world) JobQueued: {'identifier': 'hello_world', 'dependencies': OrderedDict()}
+[0.000320] (adore_cv) JobStarted: {'identifier': 'adore_cv'}
+[0.038673] (hello_world) JobStarted: {'identifier': 'hello_world'}
+[0.099678] (-) TimerEvent: {}
+[0.200021] (-) TimerEvent: {}
+[0.300287] (-) TimerEvent: {}
+[0.400660] (-) TimerEvent: {}
+[0.501016] (-) TimerEvent: {}
+[0.548412] (adore_cv) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/adore_cv', 'build', '--build-base', '/ros2_ws/build/adore_cv/build', 'install', '--record', '/ros2_ws/build/adore_cv/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/adore_cv', 'env': {'HOSTNAME': 'f780e3f026a3', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/ros2_ws/install/hello_world:/ros2_ws/install/adore_cv:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_NODE_NAME': 'hello_world', 'ROS_PACKAGE_NAME': 'hello_world', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/build/adore_cv', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/build/adore_cv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/adore_cv/lib/python3.12/site-packages:/ros2_ws/install/hello_world/lib/python3.12/site-packages:/ros2_ws/install/adore_cv/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.555387] (hello_world) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/hello_world', 'build', '--build-base', '/ros2_ws/build/hello_world/build', 'install', '--record', '/ros2_ws/build/hello_world/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/hello_world', 'env': {'HOSTNAME': 'f780e3f026a3', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/ros2_ws/install', 'ROS_DISTRO': 'jazzy', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/ros2_ws/install/hello_world:/ros2_ws/install/adore_cv:/opt/ros/jazzy', 'DEBIAN_FRONTEND': 'noninteractive', 'ROS_NODE_NAME': 'hello_world', 'ROS_PACKAGE_NAME': 'hello_world', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/ros2_ws/build/hello_world', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros2_ws/build/hello_world/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros2_ws/install/hello_world/lib/python3.12/site-packages:/ros2_ws/install/hello_world/lib/python3.12/site-packages:/ros2_ws/install/adore_cv/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1'}, 'shell': False}
+[0.601235] (-) TimerEvent: {}
+[0.677246] (hello_world) StdoutLine: {'line': b'running egg_info\n'}
+[0.679115] (adore_cv) StdoutLine: {'line': b'running egg_info\n'}
+[0.688765] (hello_world) StdoutLine: {'line': b'writing ../../build/hello_world/hello_world.egg-info/PKG-INFO\n'}
+[0.693018] (adore_cv) StdoutLine: {'line': b'writing ../../build/adore_cv/adore_cv.egg-info/PKG-INFO\n'}
+[0.694203] (hello_world) StdoutLine: {'line': b'writing dependency_links to ../../build/hello_world/hello_world.egg-info/dependency_links.txt\n'}
+[0.698704] (adore_cv) StdoutLine: {'line': b'writing dependency_links to ../../build/adore_cv/adore_cv.egg-info/dependency_links.txt\n'}
+[0.701366] (-) TimerEvent: {}
+[0.702656] (hello_world) StdoutLine: {'line': b'writing entry points to ../../build/hello_world/hello_world.egg-info/entry_points.txt\n'}
+[0.706871] (adore_cv) StdoutLine: {'line': b'writing entry points to ../../build/adore_cv/adore_cv.egg-info/entry_points.txt\n'}
+[0.709757] (hello_world) StdoutLine: {'line': b'writing requirements to ../../build/hello_world/hello_world.egg-info/requires.txt\n'}
+[0.713893] (adore_cv) StdoutLine: {'line': b'writing requirements to ../../build/adore_cv/adore_cv.egg-info/requires.txt\n'}
+[0.717778] (hello_world) StdoutLine: {'line': b'writing top-level names to ../../build/hello_world/hello_world.egg-info/top_level.txt\n'}
+[0.721355] (adore_cv) StdoutLine: {'line': b'writing top-level names to ../../build/adore_cv/adore_cv.egg-info/top_level.txt\n'}
+[0.747839] (hello_world) StdoutLine: {'line': b"reading manifest file '../../build/hello_world/hello_world.egg-info/SOURCES.txt'\n"}
+[0.747978] (hello_world) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.749171] (hello_world) StdoutLine: {'line': b"writing manifest file '../../build/hello_world/hello_world.egg-info/SOURCES.txt'\n"}
+[0.749276] (adore_cv) StdoutLine: {'line': b"reading manifest file '../../build/adore_cv/adore_cv.egg-info/SOURCES.txt'\n"}
+[0.749805] (adore_cv) StdoutLine: {'line': b"writing manifest file '../../build/adore_cv/adore_cv.egg-info/SOURCES.txt'\n"}
+[0.751671] (hello_world) StdoutLine: {'line': b'running build\n'}
+[0.751814] (hello_world) StdoutLine: {'line': b'running build_py\n'}
+[0.751885] (hello_world) StdoutLine: {'line': b'running install\n'}
+[0.753854] (adore_cv) StdoutLine: {'line': b'running build\n'}
+[0.754076] (adore_cv) StdoutLine: {'line': b'running build_py\n'}
+[0.754156] (adore_cv) StdoutLine: {'line': b'copying adore_cv/adore_cv.py -> /ros2_ws/build/adore_cv/build/lib/adore_cv\n'}
+[0.755046] (hello_world) StdoutLine: {'line': b'running install_lib\n'}
+[0.761398] (hello_world) StdoutLine: {'line': b'running install_data\n'}
+[0.761509] (hello_world) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.761764] (adore_cv) StdoutLine: {'line': b'running install\n'}
+[0.765192] (adore_cv) StdoutLine: {'line': b'running install_lib\n'}
+[0.768375] (hello_world) StdoutLine: {'line': b"removing '/ros2_ws/install/hello_world/lib/python3.12/site-packages/hello_world-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[0.771527] (adore_cv) StdoutLine: {'line': b'copying /ros2_ws/build/adore_cv/build/lib/adore_cv/adore_cv.py -> /ros2_ws/install/adore_cv/lib/python3.12/site-packages/adore_cv\n'}
+[0.777408] (hello_world) StdoutLine: {'line': b'Copying ../../build/hello_world/hello_world.egg-info to /ros2_ws/install/hello_world/lib/python3.12/site-packages/hello_world-0.0.0-py3.12.egg-info\n'}
+[0.782308] (hello_world) StdoutLine: {'line': b'running install_scripts\n'}
+[0.786148] (adore_cv) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/adore_cv/lib/python3.12/site-packages/adore_cv/adore_cv.py to adore_cv.cpython-312.pyc\n'}
+[0.788753] (adore_cv) StdoutLine: {'line': b'running install_data\n'}
+[0.788883] (adore_cv) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.801586] (-) TimerEvent: {}
+[0.801950] (adore_cv) StdoutLine: {'line': b"removing '/ros2_ws/install/adore_cv/lib/python3.12/site-packages/adore_cv-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[0.805136] (adore_cv) StdoutLine: {'line': b'Copying ../../build/adore_cv/adore_cv.egg-info to /ros2_ws/install/adore_cv/lib/python3.12/site-packages/adore_cv-0.0.0-py3.12.egg-info\n'}
+[0.805517] (adore_cv) StdoutLine: {'line': b'running install_scripts\n'}
+[0.830433] (hello_world) StdoutLine: {'line': b'Installing hello_world script to /ros2_ws/install/hello_world/lib/hello_world\n'}
+[0.836149] (hello_world) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/hello_world/install.log'\n"}
+[0.855136] (adore_cv) StdoutLine: {'line': b'Installing hello_world_cv script to /ros2_ws/install/adore_cv/lib/adore_cv\n'}
+[0.856596] (hello_world) CommandEnded: {'returncode': 0}
+[0.860914] (adore_cv) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/adore_cv/install.log'\n"}
+[0.889538] (hello_world) JobEnded: {'identifier': 'hello_world', 'rc': 0}
+[0.891896] (adore_cv) CommandEnded: {'returncode': 0}
+[0.902240] (-) TimerEvent: {}
+[0.924214] (adore_cv) JobEnded: {'identifier': 'adore_cv', 'rc': 0}
+[0.928433] (-) EventReactorShutdown: {}
